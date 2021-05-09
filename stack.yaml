@@ -4,17 +4,13 @@ packages:
 - .
 
 extra-deps:
-- git: https://github.com/purescript/purescript
-  commit: 9cad73ed8ea7df3011032ddbd2f3de5a0c08629c
+- purescript-0.13.8
 - happy-1.19.9
 - language-javascript-0.7.0.0
 - network-3.0.1.1
 - these-1.0.1
 - semialign-1
-
-nix:
-  enable: false
-  shell-file: stack.nix
+- hsc2hs-0.68.7
 
 flags:
   aeson-pretty:
